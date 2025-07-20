@@ -1,4 +1,4 @@
-# Portfolio Website
+# AmyScript - Portfolio Website
 
 A modern, single-page portfolio website built with React and Vite, showcasing my work and skills with smooth animations and a clean design.
 
