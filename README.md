@@ -1,12 +1,62 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, single-page portfolio website built with React and Vite, showcasing my work and skills with smooth animations and a clean design.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** - Frontend framework
+- **Vite** - Build tool and development server
+- **Bun** - Package manager
+- **Framer Motion** - Animation library
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Interactive Animations** - Hover effects and smooth transitions
+- **Modern UI** - Clean and minimalist design
+- **Fast Loading** - Optimized with Vite for quick page loads
+
+### Current Sections
+
+- **Header** - Navigation and branding
+- **Hero Section** - Introduction with animated chibi character
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone [your-repo-url]
+cd [your-repo-name]
+```
+
+2. Install dependencies using Bun:
+
+```bash
+bun install
+```
+
+3. Install Framer Motion for animations:
+
+```bash
+bun i framer-motion
+```
+
+4. Start the development server:
+
+```bash
+bun run dev
+```
+
+The site will be available at `http://localhost:5173`
+
+## Dependencies
+
+- `framer-motion` - Required for the tilting animation effects
+
+## Credits
+
+- Tilting animation component adapted from [React Bits](https://github.com/DavidHDev/react-bits)
+
+---
+
+_This portfolio is currently under development. More sections and features coming soon!_
