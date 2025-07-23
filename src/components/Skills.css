@@ -1,0 +1,91 @@
+/* In Skills.css */
+
+.skills-section {
+  max-width: 1100px;
+  margin: 4rem auto;
+  padding: 2rem;
+}
+
+.skills-heading {
+  font-size: 3rem;
+  color: #ffde59;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(204, 204, 204, 0.5), rgba(204, 204, 204, 0.2), rgba(204, 204, 204, 0));
+  margin-bottom: 3rem;
+}
+
+/* --- Layout for Each Category (Subheading + Grid) --- */
+.skill-category {
+  display: flex;
+  align-items: flex-start; /* Aligns subheading top with grid top */
+  gap: 2rem; /* Space between subheading and grid */
+  margin-bottom: 3rem; /* Space between each category */
+}
+
+.skills-subheading {
+  font-size: 1.5rem;
+  color: #cccccc;
+  font-weight: 500;
+  text-align: right;
+  flex-basis: 200px; /* Gives the subheading a fixed base width */
+  flex-shrink: 0; /* Prevents the subheading from shrinking */
+}
+
+.skills-grid {
+  flex: 1; /* Allows the grid to take up the remaining space */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+}
+
+/* --- Smaller Skill Card Styles --- */
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem; /* Reduced padding */
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem; /* Reduced font size */
+  gap: 0.75rem; /* Reduced gap */
+}
+
+.skill-card svg {
+  font-size: 3rem; /* Reduced icon size */
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* --- Individual Skill Colors --- */
+.skill-html { background-color: #e34f26; }
+.skill-css { background-color: #1572b6; }
+.skill-js { background-color: #f7df1e; color: #000; }
+.skill-react { background-color: #61dafb; color: #000; }
+.skill-python { background-color: #3776ab; }
+.skill-cpp { background-color: #00599c; }
+.skill-node { background-color: #339933; }
+.skill-git { background-color: #f05032; }
+.skill-github { background-color: #181717; }
+.skill-java { background-color: #f89820; }
+.skill-sql { background-color: #00758f; }
+.skill-matplotlib { background-color: #81d1e4; color: #000; }
+.skill-notion { background-color: #000000; }
+.skill-photoshop { background-color: #31A8FF; }
+.skill-canva { background-color: #00C4CC; }
+.skill-numpy { background-color: #013243; }
+.skill-pandas { background-color: #150458; }
