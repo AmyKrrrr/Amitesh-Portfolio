@@ -1,0 +1,92 @@
+/* In Contact.css */
+.contact-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+  background-color: transparent; /* A dark background */
+}
+
+.contact-content {
+  max-width: 800px;
+}
+
+.contact-title {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 10px;
+  color: #888;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+}
+
+.contact-subheading {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 3rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #cccccc;
+  text-decoration: none;
+  font-size: 1.25rem;
+  transition: all 0.3s ease;
+}
+
+.social-link:hover {
+  color: #ffde59; /* Highlight color */
+  transform: translateY(-3px);
+}
+
+.email-prompt {
+  color: #888;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.email-link {
+  color: #cccccc;
+  font-size: 1.25rem;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.email-link:hover {
+  color: #ffde59;
+  border-bottom-color: #ffde59;
+}
+
+.footer-credit {
+  position: absolute;
+  bottom: 20px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.footer-credit a {
+  color: #888;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.footer-credit a:hover {
+  color: #ffde59;
+}
