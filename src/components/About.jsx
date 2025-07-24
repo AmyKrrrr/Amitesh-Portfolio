@@ -14,6 +14,27 @@ const About = () => {
       <div className="about-text-content">
         <h2 className="about-heading">About me:</h2>
         <p className="about-description">
+          Hello! I'm Amitesh, a Computer Science student at GITAM, Hyderabad,
+          who loves turning ideas into reality with code.
+        </p>
+        <p className="about-description">
+          I spend my days building fun projects with React, JavaScript.
+        </p>
+        <p className="about-description">
+          Right now, I'm on an exciting journey to expand my toolkit. I'm diving
+          into backend development with Node.js and consistently sharpening my
+          problem-solving skills with Data Structures and Algorithms.
+        </p>
+        <p className="about-description">
+          I'm also comfortable working with Python (especially with libraries
+          like Pandas and NumPy), C++, and SQL.
+        </p>
+        <p className="about-description">
+          When I'm not coding, you can find me dabbling in graphic design. I'm
+          always excited to collaborate on cool projects, so let's connect and
+          build something awesome!
+        </p>
+        {/* <p className="about-description">
           <span className="high">Amitesh Kar</span> is a second-year{" "}
           <span className="high">Computer Science and Engineering</span> student
           at <span className="high">GITAM University, Hyderabad</span>, with a
@@ -41,7 +62,7 @@ const About = () => {
           <span className="high">graphic designing</span>. Amitesh is always
           enthusiastic about collaborating on innovative projects and
           contributing meaningfully to the tech community.
-        </p>
+        </p> */}
       </div>
       <div className="image-and-icons-container">
         <TitledCard
