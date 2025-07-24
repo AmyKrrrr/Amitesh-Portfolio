@@ -1,4 +1,3 @@
-/* In Contact.css */
 .contact-section {
   min-height: 100vh;
   display: flex;
@@ -8,7 +7,7 @@
   text-align: center;
   padding: 0.5rem;
   position: relative;
-  background-color: transparent; /* A dark background */
+  background-color: transparent;
 }
 
 .contact-content {
@@ -50,7 +49,7 @@
 }
 
 .social-link:hover {
-  color: #ffde59; /* Highlight color */
+  color: #ffde59;
   transform: translateY(-3px);
 }
 

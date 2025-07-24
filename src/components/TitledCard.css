@@ -51,9 +51,9 @@
   will-change: transform;
   transform: translateZ(30px);
 
-  background-color: rgba(0, 0, 0, 0.4); /* semi-transparent bg */
-  backdrop-filter: blur(6px); /* 🎯 blurs only behind this element */
-  -webkit-backdrop-filter: blur(6px); /* Safari support */
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(6px); 
+  -webkit-backdrop-filter: blur(6px);
 
   border-radius: 12px;
   white-space: nowrap;

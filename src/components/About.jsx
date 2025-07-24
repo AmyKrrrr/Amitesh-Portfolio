@@ -67,7 +67,6 @@ const About = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {/* Note: All extra classes are removed from the icons */}
             <SiLeetcode />
           </a>
           <a

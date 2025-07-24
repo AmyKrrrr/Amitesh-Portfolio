@@ -1,17 +1,16 @@
-/* Hero Section Styles */
 .hero-section {
-  display: flex; /* Make it a flex container */
-  align-items: center; /* Vertically align items in the middle */
-  justify-content: center; /* Horizontally center the content for now */
-  gap: 4rem; /* Add space between the image and text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
   padding: 4rem 0;
-  max-width: 1200px; /* Adjust max-width to give more space for two columns */
+  max-width: 1200px;
   margin: 0 auto;
-  text-align: left; /* Keep this for the overall section alignment if needed, but inner text-content will control */
+  text-align: left;
 }
 
 .hero-text-content {
-  flex: 1; /* Allow the text content to grow and take available space */
+  flex: 1;
 }
 
 .hero-heading {

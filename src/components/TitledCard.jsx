@@ -117,8 +117,6 @@ export default function TiltedCard({
           </motion.div>
         )}
       </motion.div>
-
-      {/* Removed the moving tooltip */}
     </figure>
   );
 }
