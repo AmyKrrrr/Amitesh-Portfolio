@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center; /* Center the image and text block */
   gap: 4rem; /* Space between image and text */
-  padding: 4rem 0; /* More padding for separation from previous section */
+  padding: 0.5rem 0; /* More padding for separation from previous section */
   max-width: 1200px; /* Keep consistent with hero section max-width */
   margin: 0 auto;
   text-align: left; /* Align text within its content block */
