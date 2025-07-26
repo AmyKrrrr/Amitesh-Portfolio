@@ -1,6 +1,6 @@
-# Portfolio Website
+# AmyScript - Portfolio Website
 
-A modern, single-page portfolio website built with React and Vite, featuring smooth animations, custom typography, and a clean design that showcases my development and graphic design skills.
+A modern, single-page portfolio website built with React and Vite, featuring smooth animations, and a clean design that showcases my development and graphic design skills.
 
 ## Tech Stack
 
@@ -32,8 +32,8 @@ A modern, single-page portfolio website built with React and Vite, featuring smo
 1. Clone the repository:
 
 ```bash
-git clone [your-repo-url]
-cd [your-repo-name]
+git clone https://github.com/AmyKrrrr/Amitesh-Portfolio
+cd Amitesh-Portfolio
 ```
 
 2. Install dependencies using Bun:
