@@ -17,10 +17,10 @@ import {
   SiNumpy,
   //   SiMatplotlib,
   SiNotion,
-  SiAdobephotoshop,
   SiCanva,
   SiMysql,
 } from "react-icons/si";
+import { DiPhotoshop } from "react-icons/di";
 
 const Skills = () => {
   return (
@@ -102,7 +102,7 @@ const Skills = () => {
           <span>Notion</span>
         </div>
         <div className="skill-card skill-photoshop">
-          <SiAdobephotoshop />
+          <DiPhotoshop />
           <span>Photoshop</span>
         </div>
         <div className="skill-card skill-canva">
