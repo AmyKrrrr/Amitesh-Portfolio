@@ -1,6 +1,7 @@
 # AmyScript - Portfolio Website
 
 https://amyscript.vercel.app/
+
 A modern, single-page portfolio website built with React and Vite, featuring smooth animations, and a clean design that showcases my development and graphic design skills.
 
 ## Tech Stack
