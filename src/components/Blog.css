@@ -1,0 +1,22 @@
+.blog-page{
+    text-align: left;
+}
+
+h1{
+    color: rgb(255, 238, 141);
+}
+
+h2{
+    color: rgb(241, 255, 87);
+}
+
+.date{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: rgb(74, 74, 74);
+}
+
+.blog-post{
+    margin-right: 40%;
+    font-size: 100%;
+}

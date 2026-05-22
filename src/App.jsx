@@ -3,16 +3,32 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
+import Blog from "./components/Blog";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
+    <Router>
       <Header />
-      <Hero />
-      <About />
-      <Skills />
-      <Contact />
-    </div>
+      <Routes>
+        <Route 
+          path="/" element={
+            <main>
+              <Hero/>
+              <About/>
+              <Skills/>
+              <Contact/>
+            </main>
+          }
+        />
+        <Route
+          path="/blogs"
+          element={
+            <Blog/>
+          }
+        />
+      </Routes>
+    </Router>
   );
 }
 
